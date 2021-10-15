@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  position: relative;
+  width: 100%;
+}
+.container .section{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+.container .section:nth-child(1){
+  background: url(bj1.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(2){
+  background: url(bj2.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(3){
+  background: url(bj3.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(4){
+  background: url(bj4.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(5){
+  background: url(bj5.jpg);
+  background-size: cover;
+}
