@@ -4,14 +4,15 @@
 
   <title>Stunning Parallax Scrolling Effects</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jaralax.css">
 </head>
 <body>
   <section>
     <div class="box">
       <h2>AwesomeParallax Scrolling</h2>
       <div class="container">
-        <div class="imgBx">
-          <img src="pexels-andrew-neel-4264046.jpg" >
+        <div class="imgBx jarallax">
+          <img src="pexels-andrew-neel-4264046.jpg" class="jarallax-img">
         </div>
         <div class="content">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui architecto aliquam laboriosam harum non? Odio perferendis delectus pariatur dolore natus reiciendis fuga totam explicabo nemo praesentium velit neque eveniet cum, porro tempore, esse quisquam dignissimos molestias magni. Enim dolorum provident et ad, voluptatum hic, harum quibusdam consequatur expedita totam sit?</p>
@@ -19,5 +20,12 @@
       </div>
     </div>
   </section>
+  <script src="jarallax.js"></script>
+  <script src="jarallax-element.js"></script>
+  <script type="jarallax-element.js">
+    jarallax(document.querySelectorAll('.jarallax'), {
+      speed: 0.2
+  });
+  </script>
 </body>
 </html>
